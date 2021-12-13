@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="52.572">
+    <testcase classname="Gmibank Login" name="TC01 logins Gmibank page" time="31.598">
+        <system-out>
+            <![CDATA[Given TC01 goes to "https://www.gmibank.com"................................passed
+And user writes valid "group16Employee" and valid "Employee12"..............passed
+Then verify the login with new page.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Gmibank Login" name="TC01 logins Gmibank page 2" time="20.787">
+        <system-out>
+            <![CDATA[Given TC01 goes to "https://www.gmibank.com"................................passed
+And user writes valid "group16Admin" and valid "Admin12"....................passed
+Then verify the login with new page.........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
